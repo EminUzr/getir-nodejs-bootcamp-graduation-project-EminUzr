@@ -9,7 +9,7 @@ mongoInitialize();
 
 app.use(express.json());
 
-app.listen(process.env.APP_PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Process is running on ${process.env.PORT}`);
   app.use("/", postFilter);
 });
