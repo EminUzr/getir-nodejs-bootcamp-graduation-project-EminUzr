@@ -1,7 +1,7 @@
 const Mongoose = require("mongoose");
 
 const mongoInitialize = () => {
-  Mongoose.connect(`${process.env.DB_URL}`)
+  Mongoose.connect(`${process.env.DB_URI}`)
     .then(() => {
       console.log("Mongodb successfully connected.");
     })
