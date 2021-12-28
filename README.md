@@ -2,6 +2,8 @@
 
 HEROKU DEPLOY URL : https://emin-uzer-getir-assignment.herokuapp.com/
 
+POST request works without a problem with POSTMAN.
+
 ## The Challenge
 We’d like you to create a RESTful API with a single endpoint that fetches the data in the provided MongoDB collection and return the results in the requested format.
 Requirements
