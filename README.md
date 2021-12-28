@@ -1,4 +1,7 @@
 # Getir Node.js Bootcamp Graduation Project
+
+HEROKU DEPLOY URL : https://emin-uzer-getir-assignment.herokuapp.com/
+
 ## The Challenge
 We’d like you to create a RESTful API with a single endpoint that fetches the data in the provided MongoDB collection and return the results in the requested format.
 Requirements
