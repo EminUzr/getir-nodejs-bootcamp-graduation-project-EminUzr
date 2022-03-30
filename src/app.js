@@ -8,8 +8,8 @@ dotenv.config();
 mongoInitialize();
 
 app.use(express.json());
+app.post("/", postFilter);
 
 app.listen(process.env.PORT, () => {
   console.log(`Process is running on ${process.env.PORT}`);
-  app.use("/", postFilter);
 });
