@@ -101,4 +101,6 @@ dist
 
 .env
 
-.idea/*
+.idea
+
+.DS_Store
